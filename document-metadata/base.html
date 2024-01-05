@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Base</title>
+
+   <base href="http://www.example.com">
+   <base href="http://www.example.com" target="_blank">
+
+</head>
+<body>
+   <h1>base</h1>
+   <p>Specifies the address (URL) used by all relative addresses contained within a document. There can only be one &lt;base&gt; element in the document. If there is more than one, only the first is considered.</p>
+
+      <h2>href</h2>
+      <p>The base URL to be used throughout the document for relative URL addresses. If specified, this element must come before any others with attributes whose values are URLs.</p>
+
+      <h2>target</h2>
+      <p>Default location to display the result when hyperlinks are triggered, by elements that do not have an explicit target reference.</p>
+
+         <h3>_self</h3>
+         <p>Puts the result in the same tab. Standard value.</p>
+
+         <h3>_blank</h3>
+         <p>Puts the result in a new tab.</p>
+
+         <h3>_parent</h3>
+         <p>Places the result in the parent tab set. If there is no parent, it behaves like the _self form.</p>
+
+         <h3>_top</h3>
+         <p>Places the result in the top-level navigation context, that is, it is an ancestor of the current one, not the parent. If there is no parent, this option behaves the same as _self.</p>
+</body>
+</html>
