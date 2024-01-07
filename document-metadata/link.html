@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Link</title>
+</head>
+<body>
+   <h1>link</h1>
+   <p>Specifies relationships between the current document and an external resource. Possible uses for this element include defining a relational structure for navigation.</p>
+
+      <h2>as</h2>
+      <p>Only used when rel="preload" was sent in the <link> element. Specifies the type of content loaded, which is necessary for content prioritization, requesting matches, applying the correct content security policy, and setting the correct Accept request header.</p>
+
+      <h2>crossorigin</h2>
+      <p>Indicates whether the search for the related image should be done using CORS or not.</p>
+
+         <h3>anonymous</h3>
+         <p>A cross-origin request is performed. But no credential is sent. If the server does not give credentials to the origin site, the image will be tainted and its usage restricted.</p>
+
+         <h3>use-credentials</h3>
+         <p>A cross-origin request is performed with credential is sent. Of the server does not give credentials to the origin site, the image will be tainted and its usage restricted.</p>
+
+      <h2>href</h2>
+      <p>Specifies the URL of the linked resource.</p>
+
+      <h2>hreflang</h2>
+      <p>Indicates the language of the linked resource. use only if href attribute is present</p>
+
+      <h2>media</h2>
+      <p>Specifies the media which the linked resource applies to. Its value must be a media query. This attribute is mainly useful when linking to external stylesheets by allowing the user agent to pick the best adapted one for the device it runs on.</p>
+
+      <h2>rel</h2>
+      <p>Names a relationship of the linked document to the current document. WebTV also supports the use of the value next for rel to preload the next page in a document series.</p>
+
+      <h2>sizes</h2>
+      <p>Defines the sizes of the icons for visual media contained in the resource. It must be present only if the rel contains the icon link types value.</p>
+
+         <h3>any</h3>
+         <p>The icon can be scaled to any size as it is in a vector format, like image/svg+xml.</p>
+
+         <h3>&lt;width in pixels&gt;x&lt;height in pixels&gt; or &lt;width in pixels&gt;X&lt;height in pixels&gt;&lt;/height&gt;</h3>
+         <p>Each of these sizes must be contained in the resource.</p>
+
+      <h2>type</h2>
+      <p>Used to define the type of the content linked to. The value of the attribute should be a MIME type such as text/html, text/css, and so on.</p>
+</body>
+</html>
