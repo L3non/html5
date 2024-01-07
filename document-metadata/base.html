@@ -4,31 +4,23 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Base</title>
+   <!-- Specifies a URL base for all URLs related to the page. -->
+   <base href="https://www.youtube.com/">
 
-   <base href="http://www.example.com">
-   <base href="http://www.example.com" target="_blank">
+   <!-- Sets the default target for all links on the page. -->
+   <base target="_blank">
 
 </head>
 <body>
    <h1>base</h1>
-   <p>Specifies the address (URL) used by all relative addresses contained within a document. There can only be one &lt;base&gt; element in the document. If there is more than one, only the first is considered.</p>
 
-      <h2>href</h2>
-      <p>The base URL to be used throughout the document for relative URL addresses. If specified, this element must come before any others with attributes whose values are URLs.</p>
+   <h2>Specifies a URL base for all URLs related to the page.</h2>
+   <p><a href="watch?v=G5wwYsPCH7w">Link to video 1</a></p>
+   <p><a href="watch?v=_7mJDIFYe0o">Link to video 2</a></p>
 
-      <h2>target</h2>
-      <p>Default location to display the result when hyperlinks are triggered, by elements that do not have an explicit target reference.</p>
+   <h2>Sets the default target for all links on the page.</h2>
+   <p><a href="https://www.youtube.com/watch?v=G5wwYsPCH7w" target="_self">Link to video 1</a></p>
+   <p><a href="https://www.youtube.com/watch?v=_7mJDIFYe0o" target="_self">Link to video 2</a></p>
 
-         <h3>_self</h3>
-         <p>Puts the result in the same tab. Standard value.</p>
-
-         <h3>_blank</h3>
-         <p>Puts the result in a new tab.</p>
-
-         <h3>_parent</h3>
-         <p>Places the result in the parent tab set. If there is no parent, it behaves like the _self form.</p>
-
-         <h3>_top</h3>
-         <p>Places the result in the top-level navigation context, that is, it is an ancestor of the current one, not the parent. If there is no parent, this option behaves the same as _self.</p>
 </body>
 </html>
