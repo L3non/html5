@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Area</title>
+</head>
+<body>
+<!-- Creates clickable areas in an image. -->
+   <img src="plan.png" alt="Building Plan" usemap="#planMap">
+   <map name="planoMap">
+      <!-- Rectangular area with alt, coords e href -->
+      <area shape="rect" alt="Office 1" coords="10,10,100,100" href="office1.html">
+
+      <!-- Area with download, ping, referrerpolicy, rel and target -->
+      <area shape="rect" alt="Unloading Area" coords="300,10,400,100" download="plan_unloading.png" ping="http://example.com/ping" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">
+   </map>
+</body>
+</html>
