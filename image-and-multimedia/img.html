@@ -3,9 +3,22 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <title>Img</title>
 </head>
 <body>
-   
+<!--
+   Specifies the location of the image;
+   Alternative text for users with special needs;
+   Defines how the browser should handle resource requests from different origins;
+   Specifies how the browser should decode the image;
+   Defines the name of the associated element timing attribute;
+   Specifies the image recovery priority;
+   Specify the height and width of the image;
+   Allow the image to be used as an image map;
+   Defines the image loading behavior;
+   Controls how the Referer header is sent when fetching the image;
+   Allow the specification of responsive images.
+-->
+   <img src="example.jpg" alt="Image description" crossorigin="anonymous" decoding="async" elementtiming="exampleTiming" fetchpriority="high" height="300" ismap loading="lazy" referrerpolicy="no-referrer" sizes="(max-width: 600px) 100vw, 50vw" srcset="example-1x.jpg 1x, example-2x.jpg 2x" width="500" usemap="#imageMap">
 </body>
 </html>
