@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Source</title>
+</head>
+<body>
+<!-- Provides different versions of some media. -->
+   <picture>
+      <source src="image.webp" type="image/webp" srcset="image.webp" sizes="(min-width: 800px) 50vw, 100vw" media="(min-width: 600px)" height="400" width="600">
+
+      <source src="image.jpeg" type="image/jpeg" srcset="image.jpg" sizes="(min-width: 800px) 50vw, 100vw" media="(min-width: 600px)" height="400" width="600">
+
+      <img src="image.jpg" alt="Image description" sizes="(min-width: 800px) 50vw, 100vw" height="400" width="600">
+    </picture>
+</body>
+</html>

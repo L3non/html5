@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Iframe</title>
+</head>
+<body>
+<!-- Embeds URL content with defined width and height, desirable permissions, how the content should be loaded, name, Referer header control, security restrictions and HTML content specification. -->
+<iframe src="https://www.example.com" width="800" height="600" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" name="exampleFrame" referrerpolicy="no-referrer" sandbox="allow-scripts allow-same-origin"
+srcdoc="
+   <html>
+   <body>
+      <h1>Embedded iframe content.</h1>
+   </body>
+   </html>"></iframe>
+</body>
+</html>
